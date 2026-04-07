@@ -2,19 +2,13 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=Building+intelligent+systems+that+trade%2C+see%2C+%26+scale+%F0%9F%9A%80;From+neural+nets+to+forex+bots+%E2%80%94+I+build+it+all+%F0%9F%94%A5)](https://git.io/typing-svg)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://jdan14.github.io/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=Building+intelligent+systems+that+trade%2C+see%2C+%26+scale;From+neural+nets+to+forex+bots+%E2%80%94+I+build+it+all)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> About Me
+## About Me
 
 ```python
 class Josh:
@@ -38,7 +32,7 @@ class Josh:
 
 ---
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25"> Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -72,7 +66,7 @@ class Josh:
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> Featured Projects
+## Featured Projects
 
 <div align="center">
 
@@ -107,11 +101,11 @@ class Josh:
 
 ---
 
-## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Bd8/giphy.gif" width="25"> GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Jdann14&show_icons=true&theme=radical&border_color=4ECDC4&border_radius=12&include_all_commits=true&count_private=true&hide_border=false" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Jdann14&show_icons=true&theme=radical&border_color=4ECDC4&border_radius=12&include_all_commits=true&count_private=true" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Jdann14&theme=radical&border=4ECDC4&ring=FF6B6B&fire=FF6B6B&currStreakLabel=4ECDC4&border_radius=12" />
 
 <br/><br/>
@@ -122,16 +116,11 @@ class Josh:
 
 ---
 
-## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="60"> Let's Connect
-
 <div align="center">
 
 ```
-          ╔══════════════════════════════════════════════╗
-          ║  Always open to collaborating on interesting ║
-          ║  projects in AI/ML, trading systems, or      ║
-          ║  anything that pushes boundaries.            ║
-          ╚══════════════════════════════════════════════╝
+  Always open to collaborating on interesting projects
+  in AI/ML, trading systems, or anything that pushes boundaries.
 ```
 
 <br/>
