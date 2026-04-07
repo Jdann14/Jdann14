@@ -76,11 +76,20 @@ class Josh:
 
 <div align="center">
 
-<a href="https://github.com/Jdann14/FOREX">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Jdann14&repo=FOREX&theme=radical&border_color=4ECDC4&border_radius=12" />
+<a href="https://github.com/Jdann14/neural-network-from-scratch">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Jdann14&repo=neural-network-from-scratch&theme=radical&border_color=4ECDC4&border_radius=12" />
 </a>
-<a href="https://github.com/Jdann14/yolo_training">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Jdann14&repo=yolo_training&theme=radical&border_color=FF6B6B&border_radius=12" />
+<a href="https://github.com/Jdann14/sentiment-analysis">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Jdann14&repo=sentiment-analysis&theme=radical&border_color=FF6B6B&border_radius=12" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/Jdann14/sorting-visualizer">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Jdann14&repo=sorting-visualizer&theme=radical&border_color=45B7D1&border_radius=12" />
+</a>
+<a href="https://github.com/Jdann14/covid-data-analysis">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Jdann14&repo=covid-data-analysis&theme=radical&border_color=FFD93D&border_radius=12" />
 </a>
 
 </div>
@@ -89,9 +98,12 @@ class Josh:
 
 | Project | Description | Tech |
 |---------|------------|------|
-| **[FOREX Trading System](https://github.com/Jdann14/FOREX)** | Autonomous forex strategy research, backtesting, paper trading & real-time alerting system | `Python` `Pandas` `Backtesting` |
-| **[YOLO Training Pipeline](https://github.com/Jdann14/yolo_training)** | Custom object detection model training with YOLOv8 for real-world computer vision applications | `Python` `PyTorch` `YOLO` `OpenCV` |
-| **[Portfolio Site](https://github.com/Jdann14/Jdan14.github.io)** | Personal portfolio & project showcase | `HTML` `CSS` `JavaScript` |
+| **[Neural Network from Scratch](https://github.com/Jdann14/neural-network-from-scratch)** | Complete NN library with Dense, Dropout, BatchNorm, Adam — no frameworks, just NumPy | `Python` `NumPy` |
+| **[Sentiment Analysis](https://github.com/Jdann14/sentiment-analysis)** | NLP pipeline for financial news sentiment using fine-tuned DistilBERT | `Python` `PyTorch` `Transformers` |
+| **[FOREX Trading System](https://github.com/Jdann14/FOREX)** | Autonomous forex strategy research, backtesting, paper trading & real-time alerting | `Python` `Pandas` `Backtesting` |
+| **[Sorting Visualizer](https://github.com/Jdann14/sorting-visualizer)** | Interactive sorting algorithm visualizer with React | `React` `JavaScript` `CSS` |
+| **[COVID-19 Data Analysis](https://github.com/Jdann14/covid-data-analysis)** | Exploratory data analysis and visualization of global COVID-19 trends | `Python` `Pandas` `Matplotlib` |
+| **[YOLO Training Pipeline](https://github.com/Jdann14/yolo_training)** | Custom object detection model training with YOLOv8 | `Python` `PyTorch` `YOLO` `OpenCV` |
 
 ---
 
