@@ -12,12 +12,13 @@ UpStream is the layer between cameras and code. Connect any camera, declare what
 
 ### What ships today
 
-UpStream is at Milestone 7. The platform is four services:
+UpStream is developing quickly. The platform is four services:
 
 - **Agent** — pip-installable Python CLI. Captures from any camera (webcam, RTSP), publishes SRT to ingest with heartbeat and reconnect. ~6k LOC, 367 tests.
 - **Streaming server** — MediaMTX on a custom Alpine + FFmpeg image. SRT ingest on UDP 18890, WebRTC fanout via WHEP, HTTP publish-auth gate.
 - **Control plane** — FastAPI + asyncpg + Supabase. 31 endpoints across accounts, agents, cameras, sessions, snapshots, ingest webhooks. Live at [api.upstreamcv.com](https://api.upstreamcv.com).
 - **Operator dashboard** — Next.js 16, Tailwind v4, Supabase Realtime. Live WebRTC playback, snapshot capture, API token management.
+- **Processor** — inference plane (M8, in progress). Pluggable detector workers consume live streams via WebRTC; per-camera detector binding for counting, line-crossing, and ROI alerts.
 
 Architecture, design decisions, and roadmap: **[upstream-architecture-notes](https://github.com/Jdann14/upstream-architecture-notes)**
 
