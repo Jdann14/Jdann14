@@ -38,7 +38,3 @@ Architecture, design decisions, and roadmap: **[upstream-architecture-notes](htt
 ### Stack
 
 Python · TypeScript · FastAPI · Next.js · OpenCV · FFmpeg · SRT · RTSP · WebRTC · MediaMTX · Supabase · Postgres · AWS
-
-### Reach me
-
-[upstreamcv.com](https://upstreamcv.com) · [LinkedIn](https://www.linkedin.com/in/josh-d-annunzio-3b0171227/)
