@@ -1,40 +1,68 @@
-## Josh D'Annunzio
+# Josh D'Annunzio
 
-**I'm building [UpStream](https://upstreamcv.com) — the developer infrastructure for live camera intelligence.**
+**Software engineer · Data engineer · Applied AI & computer vision**
 
-Every camera in the world is generating video that nobody watches. The bottleneck isn't the cameras or the models — it's the plumbing in between: stream ingest, codec handling, session auth, GPU scheduling, model serving, storage, alerts, APIs. Today every team rebuilds it from scratch.
+I'm a software engineer and founder based in Boulder, Colorado. I build systems that turn raw data and live video into useful, reliable applications—from federal healthcare data pipelines to computer vision platforms and AI developer tools.
 
-UpStream is the layer between cameras and code. Connect any camera, declare what to detect, count, or track, and we handle the rest. Think AWS Lambda for live video.
+My work spans model training and evaluation, real-time inference, backend APIs, distributed data processing, and full-stack product development. I care about what happens after deployment: data quality, observability, recovery, and making results easy to inspect.
 
-→ [upstreamcv.com](https://upstreamcv.com) · status: private beta · architecture: **[upstream-architecture-notes](https://github.com/Jdann14/upstream-architecture-notes)**
+## What I'm working on
 
----
+### Upstream Vision — Founder & Software Engineer
+*May 2026–present*
 
-### What ships today
+Building infrastructure to help teams deploy, monitor, and improve live-camera AI workflows.
 
-UpStream is developing quickly. The platform is four services:
+- Developed camera-agent and control-plane workflows for secure video ingestion, stream validation, heartbeats, reconnection, and frame sampling.
+- Built with Python, FastAPI, Docker, PostgreSQL/Supabase, and SRT/MediaMTX, with WebRTC playback and a Next.js operator dashboard.
+- Working across model serving, camera-health monitoring, model-output reliability, and rules/event workflows, including APIs, webhooks, and audit/replay.
 
-- **Agent** — pip-installable Python CLI. Captures from any camera (webcam, RTSP), publishes SRT to ingest with heartbeat and reconnect. ~6k LOC, 367 tests.
-- **Streaming server** — MediaMTX on a custom Alpine + FFmpeg image. SRT ingest on UDP 18890, WebRTC fanout via WHEP, HTTP publish-auth gate.
-- **Control plane** — FastAPI + asyncpg + Supabase. 31 endpoints across accounts, agents, cameras, sessions, snapshots, ingest webhooks. Live at [api.upstreamcv.com](https://api.upstreamcv.com).
-- **Operator dashboard** — Next.js 16, Tailwind v4, Supabase Realtime. Live WebRTC playback, snapshot capture, API token management.
-- **Processor** — inference plane (M8, in progress). Pluggable detector workers consume live streams via WebRTC; per-camera detector binding for counting, line-crossing, and ROI alerts.
+[Website](https://upstreamcv.com) · [Public architecture notes and roadmap](https://github.com/Jdann14/upstream-architecture-notes)
 
-Architecture, design decisions, and roadmap: **[upstream-architecture-notes](https://github.com/Jdann14/upstream-architecture-notes)**
+### CrowdCount — Co-Founder & Computer Vision Lead
+*December 2025–present*
 
----
+Co-founded a real-time people-counting and occupancy analytics platform piloted at **25 locations**, owning the pipeline from camera ingestion to inference, tracking, and analytics.
 
-### Prior work
+- Trained YOLO models on self-collected data and improved performance through model evaluation, reflection filtering, and low-light preprocessing.
+- Tuned ByteTrack and re-identification recovery for tracking continuity across changing lighting, camera angles, and occlusion.
+- Built Python/Flask services, GPU-aware batched inference, SQLite-backed outage queues, and automatic stalled-camera recovery across Raspberry Pi/GPU infrastructure.
 
-**CrowdCount** — Computer vision lead. Production people-counting on live camera feeds: YOLO detection, ByteTrack + ReID for cross-frame identity, line-crossing logic, API-connected analytics dashboards.
-→ [Demo video](https://youtu.be/wB6bHNOxsBk)
+[Watch the demo](https://youtu.be/wB6bHNOxsBk)
 
-**RELI Group** — Data engineering on federal cloud modernization. Spark, Databricks, EMR on AWS. Production data workflows.
+### RELI Group — Software Engineer / Data Analyst
+*May 2024–present*
 
-**B.S. Statistics & Data Science** — ML, model evaluation, applied statistics.
+Develop and support production data workflows for Centers for Medicare & Medicaid Services (CMS) healthcare initiatives.
 
----
+- Build, validate, and troubleshoot ETL/ELT pipelines with Python, PySpark, Spark SQL, Databricks, Delta Lake, and AWS.
+- Translate reporting requirements into reusable transformations and investigate discrepancies through SQL/Python analysis, reconciliation, and data-quality checks.
+- Support releases with Git, Jenkins CI/CD, testing, technical documentation, and collaboration across engineering, QA, and business teams.
 
-### Stack
+## Selected public projects
 
-Python · TypeScript · FastAPI · Next.js · OpenCV · FFmpeg · SRT · RTSP · WebRTC · MediaMTX · Supabase · Postgres · AWS
+| Project | What it does |
+| --- | --- |
+| **[Tracework](https://github.com/Jdann14/tracework)** | An inspectable AI data workspace with versioned SQL pipelines, durable execution, data-quality checks, evidence, and run comparisons. Built with FastAPI, DuckDB, SQLite, and React/TypeScript. |
+| **[Beacon](https://github.com/Jdann14/beacon)** | A local-first control center for AI coding agents, combining a CLI, session management, SQLite-backed history, and a live React dashboard over WebSockets. |
+| **[srt-bench](https://github.com/Jdann14/srt-bench)** | An early live-video ingest benchmark tool with an SRT loopback runner and time-to-first-frame measurement. Additional transports and network-condition testing are planned. |
+
+## Technical skills
+
+| Area | Tools and experience |
+| --- | --- |
+| **Languages** | Python, SQL, PySpark, Spark SQL, JavaScript, TypeScript, HTML/CSS |
+| **Data engineering** | Databricks, Apache Spark, Delta Lake, ETL/ELT, data modeling, validation, reconciliation, Pandas, NumPy |
+| **Machine learning & vision** | OpenCV, YOLO, ByteTrack, ReID, TensorFlow, scikit-learn, model training and evaluation, statistical analysis, real-time and batched inference |
+| **Backend & applications** | FastAPI, Flask, REST APIs, WebSockets, webhooks, React, Next.js |
+| **Databases** | PostgreSQL/Supabase, SQLite, DuckDB |
+| **Cloud & delivery** | AWS, AWS EMR, Docker, Linux, Git, GitHub Actions, Jenkins, CI/CD, automated testing, observability |
+| **Video systems** | MediaMTX, FFmpeg, SRT, RTSP, WebRTC, Raspberry Pi, GPU processing |
+| **AI development workflows** | Model integration, tool-driven AI workflows, Claude Code, Codex CLI, AI-assisted debugging and rapid prototyping |
+
+## Education
+
+**University of Colorado Boulder**  
+B.S. in Statistics and Data Science, 2025 · Minor in Information Science
+
+Interested in building reliable AI applications, data platforms, and developer tools.
