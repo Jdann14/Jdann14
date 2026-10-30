@@ -1,6 +1,6 @@
 # Hey, I'm Josh
 
-I'm a software engineer in Boulder, CO. I like building systems that take messy real-world data (live video, healthcare records, and lately on-chain lending markets) and turn it into something reliable. My day job is data engineering. Outside of that I'm usually deep in some side project.
+I'm a software engineer in Boulder, CO. I like building systems that take messy real-world data (live video, healthcare records, and lately on-chain lending markets) and turn it into something reliable. By day I engineer data and reports for federal healthcare programs in Databricks. Outside of that I'm usually deep in some side project.
 
 ## What I'm building now: a Morpho liquidation bot
 
@@ -17,13 +17,13 @@ It's a bot that watches [Morpho Blue](https://morpho.org) lending markets and li
 
 ## Day job: RELI Group
 
-Since May 2024 I've done software and data engineering on healthcare data for the Centers for Medicare & Medicaid Services (CMS). I build and debug ETL pipelines in PySpark and Databricks on AWS, track down why numbers don't match, and help keep releases boring.
+Since May 2024 I've worked on healthcare data for the Centers for Medicare & Medicaid Services (CMS), and I'm in Databricks every day. Most of my work is engineering the reports that go to stakeholders: I turn what they need to know into SQL and PySpark, make sure the numbers hold up, and get the results delivered. I'm also under the hood a lot, working on the pipelines that feed those reports, on data-quality checks, and on tracking down why two numbers don't match.
 
 ## Previously
 
-### Upstream Vision (founder, May–Sep 2026)
+### Upstream Vision (co-founder, May–Sep 2026)
 
-A reliability layer for computer vision in production. It streamed video from real cameras, ran detection on it, and told operators when and why detection quality slipped. I built most of the platform, from the camera agent all the way to the status page.
+I co-founded Upstream with [Elkan Bruha](https://github.com/elkanbruha). It was a reliability layer for computer vision in production: it streamed video from real cameras, ran detection on it, and told operators when and why detection quality slipped. The platform is split across these repos:
 
 - [upstream-agent](https://github.com/UpstreamCV/upstream-agent): pip-installable Python agent that reads a camera feed and streams it securely to Upstream
 - [upstream-streaming-server](https://github.com/UpstreamCV/upstream-streaming-server): accepts, validates, routes, and monitors incoming video streams (SRT + MediaMTX)
@@ -36,10 +36,18 @@ A reliability layer for computer vision in production. It streamed video from re
 
 ### CrowdCount (co-founder & CV lead, Dec 2025–Sep 2026)
 
-Real-time people counting and occupancy analytics, piloted at **25 locations**. I owned the computer vision pipeline. I trained YOLO models on data we collected ourselves and tuned ByteTrack and re-ID to keep tracking people through bad lighting and occlusion. I also built the server that takes in Raspberry Pi camera feeds and runs batched GPU inference.
+Real-time people counting and occupancy analytics, piloted at **25 locations**. I co-founded it with Elkan and a small team. My focus was the models: training YOLO on data we collected ourselves, testing and evaluating each version, and getting the models working in the live counting pipeline. That included tuning ByteTrack and re-ID so tracking held up through bad lighting and occlusion.
 
-- [crowdcount-counter-server](https://github.com/Crowd-Count/crowdcount-counter-server): ingests the Pi camera streams and does the counting
-- [Watch the demo](https://youtu.be/wB6bHNOxsBk)
+The rest of the system:
+
+- [crowdcount-counter](https://github.com/Crowd-Count/crowdcount-counter): the counter device, a Raspberry Pi Zero 2W with a global shutter camera
+- [crowdcount-counter-server](https://github.com/Crowd-Count/crowdcount-counter-server): takes in the counter streams and runs detection and counting
+- [crowdcount-counter-manager](https://github.com/Crowd-Count/crowdcount-counter-manager): manage a counter from the web
+- [crowdcount-ios](https://github.com/Crowd-Count/crowdcount-ios): the iOS app on the App Store
+- [crowdcount-web](https://github.com/Crowd-Count/crowdcount-web): the CrowdCount website
+- [crowdcount-devtools](https://github.com/Crowd-Count/crowdcount-devtools): internal tool for managing users, counters, and server performance
+
+[Watch the demo](https://youtu.be/wB6bHNOxsBk)
 
 ## Tools I use
 
